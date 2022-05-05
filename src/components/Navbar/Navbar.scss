@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar-options {
+    margin-right: 10px;
+    .navbar-option {
+        color: white;
+        font-size: 1.2em;
+        margin-right: 15px;
+        text-decoration: none;
+        transition: ease-in 0.2s;
+
+        &:hover {
+            color: red;
+        }
+    }
+    .navbar-contact-us-btn {
+        border: rgb(231, 65, 0) solid 1px;
+        color: rgb(231, 65, 0);
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 1.2em;
+        width: 150px;
+        cursor: pointer;
+        transition: ease-in 0.2s;
+
+        &:hover {
+            background-color: rgb(231, 39, 0);
+            color: black;
+        }
+    }
+}
