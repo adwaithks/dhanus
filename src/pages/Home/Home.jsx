@@ -1,6 +1,8 @@
 import React from 'react'
 import CountDown from '../../components/CountDown/CountDown'
+import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
+import {BsChevronDoubleDown} from 'react-icons/bs'
 
 
 function Home() { 
@@ -20,6 +22,9 @@ function Home() {
           <CountDown deadline="May, 30, 2022" />
         </div>
       </div>
+
+      <BsChevronDoubleDown className='home-down-arrow' />
+
     </section>
   )
 }

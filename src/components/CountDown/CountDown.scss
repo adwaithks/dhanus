@@ -8,7 +8,7 @@
     margin-right: 10px;
     display: flex;
     width: 110px;
-    box-shadow: 0 0 30px rgb(37, 37, 37);
+    box-shadow: 0 0 10px rgb(37, 37, 37);
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,19 @@
         font-size: .35em;
         color: rgb(183, 183, 183) !important;
     }
+}
+
+@media only screen and (max-width: 920px) {
+
+    .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+        font-size: 7vw;
+
+        h1 {
+            font-size: .4em;
+        }
+    }
+
+
 }
 
 @media only screen and (max-width: 500px) {
