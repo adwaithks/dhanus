@@ -2,6 +2,39 @@
     display: flex;
 }
 
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    button {
+        width: 280px;
+        font-size: 23px;
+        padding: 15px;
+        background-color: rgba(15, 15, 15, 0.327);
+        border: rgba(173, 173, 173, 0.7) solid 1px;
+        outline: none;
+        color: white;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+
+        .calendar-icon {
+            font-size: 1.5em;
+        }
+
+
+        &:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    }
+}
+
+
 .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
     background-color: rgb(29, 29, 29);
     border-radius: 5px;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './CountDown.scss'
+import {AiOutlineCalendar} from 'react-icons/ai'
 
 class CountDown extends Component {
   constructor(props) {
@@ -20,6 +21,12 @@ class CountDown extends Component {
   leading0(num) {
     return num < 10 ? "0" + num : num;
   }
+
+  addToCalendar() {
+    const url = "http://www.google.com/calendar/event?action=TEMPLATE&dates=20220530T033000Z%2F20220530T113000Z&text=Dhanus%202k22%20%7C%20Tech%20Fest%20%7C%20College%20of%20Engineering%20Kallooppara%2C%20Pathanamthitta&location=College%20of%20Engineering%20Kallooppara%2C%20Pathanamthitta&details=Tech%20Fest%20of%20College%20of%20Engineering%20Kalloopparra%2C%20Pathanamthitta%20%7C%20May%2030th%20and%2031st%20%7C%20Get%20Ready%20to%20Party!"
+    window.open(url, "_blank")
+  }
+
   getTimeUntil(deadline) {
     const time = Date.parse(deadline) - Date.parse(new Date());
     if (time < 0) {
@@ -34,22 +41,27 @@ class CountDown extends Component {
   }
   render() {
     return (
-      <div className="count-down">
-        <div className="Clock-days">
-            <h1>Days</h1>
-            {this.leading0(this.state.days)}
+      <div className="count-down-container">
+        <div className="count-down">
+          <div className="Clock-days">
+              <h1>Days</h1>
+              {this.leading0(this.state.days)}
+          </div>
+          <div className="Clock-hours">
+              <h1>Hours</h1>
+            {this.leading0(this.state.hours)}
+          </div>
+          <div className="Clock-minutes">
+              <h1>Minutes</h1>
+            {this.leading0(this.state.minutes)}
+          </div>
+          <div className="Clock-seconds">
+              <h1>Seconds</h1>
+            {this.leading0(this.state.seconds)}
+          </div>
         </div>
-        <div className="Clock-hours">
-            <h1>Hours</h1>
-          {this.leading0(this.state.hours)}
-        </div>
-        <div className="Clock-minutes">
-            <h1>Minutes</h1>
-          {this.leading0(this.state.minutes)}
-        </div>
-        <div className="Clock-seconds">
-            <h1>Seconds</h1>
-          {this.leading0(this.state.seconds)}
+        <div className="calendar-container">
+          <button onClick={this.addToCalendar}><AiOutlineCalendar className="calendar-icon" />Add to Calendar</button>
         </div>
       </div>
     );

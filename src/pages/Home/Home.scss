@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;  
     display: flex;
-    overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .home-left-container {
@@ -59,7 +59,7 @@
     position: absolute;
     color: rgb(224, 224, 224);
     font-size: 4em;
-    bottom: 50px;
+    bottom: 20px;
     left: 47%;
     transform: translate(-50%, 50%);
     animation: bounce 2s infinite;
@@ -89,7 +89,7 @@
         width: 100%;
         position: absolute;
         left: 50%;
-        top: 55%;
+        top: 50%;
         transform: translate(-50%, 50%);
     }
 
@@ -118,7 +118,7 @@
         width: 100%;
         position: absolute;
         left: 50%;
-        top: 55%;
+        top: 48%;
         transform: translate(-50%, 50%);
     }
 
@@ -128,6 +128,6 @@
     }
 
     .home-down-arrow {
-        left: 43%;
+        left: 44%;
     }
 }

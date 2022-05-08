@@ -6,7 +6,7 @@ import {BsChevronDoubleDown} from 'react-icons/bs'
 
 function Home() { 
   return (
-    <section className='home'>
+    <div className='home'>
       <div className='home-left-container'>
         <main className='home-dhanus-text-container'>
           <h1 className='home-dhanus-text-primary'>
@@ -21,10 +21,7 @@ function Home() {
           <CountDown deadline="May, 30, 2022" />
         </div>
       </div>
-
-      <BsChevronDoubleDown className='home-down-arrow' />
-
-    </section>
+    </div>
   )
 }
 

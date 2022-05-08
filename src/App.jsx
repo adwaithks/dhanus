@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DhanusPosters from './components/DhanusPosters/DhanusPosters';
+import Footer from './components/Footer/Footer';
 import Events from './pages/Events/Events';
 import Home from './pages/Home/Home';
 
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Home />
       <DhanusPosters />
-      <Events />
+      <Footer />
     </div>
   );
 }
