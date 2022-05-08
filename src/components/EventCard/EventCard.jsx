@@ -5,7 +5,6 @@ function EventCard() {
   return (
     <div className='event-card'>
         <div className='event-card-inner'>
-            <img src="" alt="" />
         </div>
     </div>
   )

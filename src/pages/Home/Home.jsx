@@ -1,6 +1,5 @@
 import React from 'react'
 import CountDown from '../../components/CountDown/CountDown'
-import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
 import {BsChevronDoubleDown} from 'react-icons/bs'
 

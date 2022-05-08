@@ -59,8 +59,8 @@
     position: absolute;
     color: rgb(224, 224, 224);
     font-size: 4em;
-    bottom: 20px;
-    left: 45%;
+    bottom: 50px;
+    left: 47%;
     transform: translate(-50%, 50%);
     animation: bounce 2s infinite;
 }
@@ -125,5 +125,9 @@
     .home-dhanus-text-primary {
         font-size: 19vw;
         margin-top: -200px;
+    }
+
+    .home-down-arrow {
+        left: 43%;
     }
 }
