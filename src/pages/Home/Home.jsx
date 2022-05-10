@@ -18,7 +18,7 @@ function Home() {
 
       <div className='home-right-container'>
         <div className='home-right-countdown'>
-          <CountDown deadline="May, 30, 2022" />
+          <CountDown deadline="June, 2, 2022" />
         </div>
       </div>
     </div>
