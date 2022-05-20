@@ -1,6 +1,6 @@
 import React from 'react'
 import './TopBanner.scss'
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiFillCloseCircle} from 'react-icons/ai'
 import { TopBannerViewContext } from '../../context/TopBannerViewContext'
 
 function TopBanner() {
@@ -13,7 +13,7 @@ function TopBanner() {
             topBannerView ? (
                  <div className="top-banner">
                     <h5>We are excited to share our brochure! 🎉🎉<a href="./Brochure_Dhanus.pdf" download>View here</a></h5>
-                    <AiOutlineClose className="top-banner-close-icon" onClick={() => {
+                    <AiFillCloseCircle className="top-banner-close-icon" onClick={() => {
                         setTopBannerView(false);
                     }} />
                  </div>
