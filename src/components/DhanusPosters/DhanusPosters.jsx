@@ -9,13 +9,13 @@ function DhanusPosters() {
         </div>
         <div className='dhanus-posters-container'>
             <div className='dhanus-poster'>
-                <img src="./dhanus_poster1.svg" alt="" />
+                <img src="./dhanus2.svg" alt="" />
             </div>
             <div className='dhanus-poster'>
-                <img src="./dhanus_poster2.svg" alt="" />
+                <img src="./dhanus1.jpeg" alt="" />
             </div>
             <div className='dhanus-poster'>
-                <img src="./dhanus_poster3.svg" alt="" />
+                <img src="./dhanus3.svg" alt="" />
             </div>
         </div>
         <div>

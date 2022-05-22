@@ -9,7 +9,14 @@ function Events() {
             <h1>EVENTS</h1>
         </div>
         <div className='events-container'>
-        <h1 className='coming-soon'>Coming Soon...</h1>
+            <EventCard image="./hackathon.jpeg" />
+            <EventCard image="./pubg.jpeg" />
+            <EventCard image="./expo.jpg" />
+            <EventCard image="./cktdebug.jpg" />
+            <EventCard image="./jam.jpg" />
+            <EventCard image="./fitit.jpg" />
+            <EventCard image="./treasurehunt.jpg" />
+
         </div>
     </section>
   )

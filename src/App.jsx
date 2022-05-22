@@ -13,7 +13,8 @@ function App() {
       <div className="App">
         <TopBanner />
         <Home />
-        {/*<DhanusPosters />*/}
+        <DhanusPosters />
+        <Events />
         <Footer />
       </div>
     </TopBannerViewProvider>

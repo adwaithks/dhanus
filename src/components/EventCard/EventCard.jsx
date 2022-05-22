@@ -1,11 +1,10 @@
 import React from 'react'
 import './EventCard.scss'
 
-function EventCard() {
+function EventCard({image}) {
   return (
     <div className='event-card'>
-        <div className='event-card-inner'>
-        </div>
+          <img src={image} alt="" />
     </div>
   )
 }
