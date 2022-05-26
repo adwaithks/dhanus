@@ -2,6 +2,7 @@ import React from 'react'
 import EventCard from '../../components/EventCard/EventCard'
 import './Events.scss'
 
+
 function Events() {
   return (
     <section className='events'>
@@ -16,7 +17,6 @@ function Events() {
             <EventCard image="./jam.jpg" />
             <EventCard image="./fitit.jpg" />
             <EventCard image="./treasurehunt.jpg" />
-
         </div>
     </section>
   )
