@@ -4,15 +4,17 @@
     margin: auto;
 }
 
+@keyframes color {
+    0%   { background: #000000; }
+    20%  { background: #131313; }
+    40%  { background: #191919; }
+    60%  { background: #1f1f1f; }
+    80%  { background: #171717; }
+    100% { background: #000000; }
+  }
+
 .coming-soon {
     color: white;
-}
-
-.particles {
-    z-index: -10 !important;
-    position: relative;
-    height: 100% !important;
-    width: 100% !important;
 }
 
 .events-head-container {
@@ -43,6 +45,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+
 
 @media only screen and (max-width: 500px) {
     .events-container {
