@@ -11,12 +11,17 @@ function Events() {
         </div>
         <div className='events-container'>
             <EventCard image="./hackathon.jpeg" />
-            <EventCard image="./pubg.jpeg" />
-            <EventCard image="./expo.jpg" />
-            <EventCard image="./cktdebug.jpg" />
-            <EventCard image="./jam.jpg" />
-            <EventCard image="./fitit.jpg" />
-            <EventCard image="./treasurehunt.jpg" />
+            <EventCard image="./circuitdebogue.jpg" />
+            <EventCard image="./cpuassemble.jpg" />
+            <EventCard image="./disandassemble.jpg" />
+            <EventCard image="./ejam.jpg" />
+            <EventCard image="./gaming.jpg" />
+            <EventCard image="./techitout.jpg" />
+            <EventCard image="./paperpresentation.jpg" />
+            <EventCard image="./uiuxdesign.jpeg" />
+            <EventCard image="./workshop.jpg" />
+            <EventCard image="./fastandfurious.jpg" />
+            <EventCard image="./engineeringdesign.jpg" />
         </div>
     </section>
   )
