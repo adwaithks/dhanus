@@ -34,6 +34,7 @@ function Events() {
             <EventCard image="./gaming.jpg" />
             <EventCard image="./paperpresentation.jpg" />
             <EventCard image="./uiuxdesign.jpeg" />
+            <EventCard image="./iris.jpg" />
             <EventCard image="./workshop.jpg" />
             <EventCard image="./fastandfurious.jpg" />
             <EventCard image="./engineeringdesign.jpg" />
