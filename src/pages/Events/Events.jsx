@@ -20,7 +20,11 @@ function Events() {
             />
             <EventCard image="./photoshop.jpeg" 
               regAvail={true}
-              regLink="https://surveyheart.com/form/6291e2181503c414bc714b79"
+              regLink="https://docs.google.com/forms/d/e/1FAIpQLSdLPEX_7Dw47eFLRHtg5FOsrW2KLM9Aeav-sSxqlbGhYK-KGg/viewform"
+            />
+            <EventCard image="./techitout.jpg" 
+              regAvail={true}
+              regLink="https://docs.google.com/forms/d/e/1FAIpQLSc-FPBcTWvCMHFjkmVXmmasI_153qaYRbvd605oL5VRqiafhw/viewform"
             />
             <EventCard image="./hackathon.jpeg" />
             <EventCard image="./cpuassemble.jpg" />
@@ -28,7 +32,6 @@ function Events() {
             <EventCard image="./oorja.jpeg" />
             <EventCard image="./ejam.jpg" />
             <EventCard image="./gaming.jpg" />
-            <EventCard image="./techitout.jpg" />
             <EventCard image="./paperpresentation.jpg" />
             <EventCard image="./uiuxdesign.jpeg" />
             <EventCard image="./workshop.jpg" />
