@@ -15,6 +15,7 @@ function Events() {
             <EventCard image="./hackathon.jpeg" />
             <EventCard image="./cpuassemble.jpg" />
             <EventCard image="./disandassemble.jpg" />
+            <EventCard image="./oorja.jpeg" />
             <EventCard image="./ejam.jpg" />
             <EventCard image="./gaming.jpg" />
             <EventCard image="./techitout.jpg" />
