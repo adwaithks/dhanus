@@ -17,7 +17,7 @@ function EventCard({image, regAvail, regLink}) {
             (regAvail) ? (
               <button onClick={() => {
                 window.open(regLink, "_blank");
-              }}>Registrations Open! 🤩</button>
+              }}>Register Now! 🤩</button>
             ) : (
               <button>See you there! 👋</button>
             )

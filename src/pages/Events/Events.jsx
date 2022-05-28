@@ -14,6 +14,10 @@ function Events() {
                 regAvail={true} 
                 regLink="https://docs.google.com/forms/d/e/1FAIpQLSclhQUDF6v5hgrkedmrkh9EqPQiF71SFjLz6jORo8LNW_r2qg/viewform?usp=sf_link" 
             />
+            <EventCard image="./codetech.jpeg"
+              regAvail={true}
+              regLink="https://docs.google.com/forms/d/e/1FAIpQLSeIfp5B25i5uPKiyWu1sD6UiPvJJhxDkkoYTg4aLF-henjr4w/viewform"
+            />
             <EventCard image="./photoshop.jpeg" regAvail={false} />
             <EventCard image="./hackathon.jpeg" />
             <EventCard image="./cpuassemble.jpg" />
