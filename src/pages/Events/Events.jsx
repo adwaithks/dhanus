@@ -10,8 +10,9 @@ function Events() {
             <h1>EVENTS</h1>
         </div>
         <div className='events-container'>
+            <EventCard image="./circuitdebogue.jpg" regAvail={true} />
+            <EventCard image="./photoshop.jpeg" regAvail={false} />
             <EventCard image="./hackathon.jpeg" />
-            <EventCard image="./circuitdebogue.jpg" />
             <EventCard image="./cpuassemble.jpg" />
             <EventCard image="./disandassemble.jpg" />
             <EventCard image="./ejam.jpg" />
