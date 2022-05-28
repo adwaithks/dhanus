@@ -10,18 +10,18 @@ function Events() {
             <h1>EVENTS</h1>
         </div>
         <div className='events-container'>
-            <EventCard image="./circuitdebogue.jpg" 
-                regAvail={true} 
-                regLink="https://docs.google.com/forms/d/e/1FAIpQLSclhQUDF6v5hgrkedmrkh9EqPQiF71SFjLz6jORo8LNW_r2qg/viewform?usp=sf_link" 
+            <EventCard image="./photoshop.jpeg" 
+              regAvail={true}
+              regLink="https://docs.google.com/forms/d/e/1FAIpQLSdLPEX_7Dw47eFLRHtg5FOsrW2KLM9Aeav-sSxqlbGhYK-KGg/viewform"
             />
             <EventCard image="./codetech.jpeg"
               regAvail={true}
               regLink="https://docs.google.com/forms/d/e/1FAIpQLSeIfp5B25i5uPKiyWu1sD6UiPvJJhxDkkoYTg4aLF-henjr4w/viewform"
             />
-            <EventCard image="./photoshop.jpeg" 
-              regAvail={true}
-              regLink="https://docs.google.com/forms/d/e/1FAIpQLSdLPEX_7Dw47eFLRHtg5FOsrW2KLM9Aeav-sSxqlbGhYK-KGg/viewform"
-            />
+            <EventCard image="./cktdebug.jpeg" 
+                regAvail={true} 
+                regLink="https://docs.google.com/forms/d/e/1FAIpQLSclhQUDF6v5hgrkedmrkh9EqPQiF71SFjLz6jORo8LNW_r2qg/viewform?usp=sf_link" 
+            />      
             <EventCard image="./techitout.jpg" 
               regAvail={true}
               regLink="https://docs.google.com/forms/d/e/1FAIpQLSc-FPBcTWvCMHFjkmVXmmasI_153qaYRbvd605oL5VRqiafhw/viewform"
