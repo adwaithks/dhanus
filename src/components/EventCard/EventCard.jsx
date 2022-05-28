@@ -1,7 +1,7 @@
 import React from 'react'
 import './EventCard.scss'
 
-function EventCard({image, regAvail}) {
+function EventCard({image, regAvail, regLink}) {
   return (
     <div className='event-card'>
         {
@@ -15,7 +15,9 @@ function EventCard({image, regAvail}) {
           <img src={image} alt="" />
           {
             (regAvail) ? (
-              <button>Registration will open soon! 🤩</button>
+              <button onClick={() => {
+                window.open(regLink, "_blank");
+              }}>Registrations Open! 🤩</button>
             ) : (
               <button>See you there! 👋</button>
             )

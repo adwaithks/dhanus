@@ -10,7 +10,10 @@ function Events() {
             <h1>EVENTS</h1>
         </div>
         <div className='events-container'>
-            <EventCard image="./circuitdebogue.jpg" regAvail={true} />
+            <EventCard image="./circuitdebogue.jpg" 
+                regAvail={true} 
+                regLink="https://docs.google.com/forms/d/e/1FAIpQLSclhQUDF6v5hgrkedmrkh9EqPQiF71SFjLz6jORo8LNW_r2qg/viewform?usp=sf_link" 
+            />
             <EventCard image="./photoshop.jpeg" regAvail={false} />
             <EventCard image="./hackathon.jpeg" />
             <EventCard image="./cpuassemble.jpg" />
